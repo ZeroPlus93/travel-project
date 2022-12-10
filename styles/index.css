@@ -14,4 +14,34 @@
     box-shadow: 2px 4px 8px rgba(70, 70, 70, 0.8);
     position: relative;
     top: 200px;
+    padding: 2em 0;
+}
+#hero-content h1 {
+    font-size: 3em;
+    font-family: 'Raleway',sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+#hero-content p {
+    font-size: 1.5em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+#hero-content a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    background-color: rgb(255, 255, 60);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgba(70, 70, 70, 0.8);
+    transition: 0.5s;
+}
+#hero-content a:hover {
+    color: white;
+    background-color: rgb(250, 204, 0);
 }

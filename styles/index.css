@@ -5,3 +5,13 @@
     height: 800px;
     width: 100%;
 }
+#hero-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(70, 70, 70, 0.8);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(70, 70, 70, 0.8);
+    position: relative;
+    top: 200px;
+}

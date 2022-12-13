@@ -1,3 +1,4 @@
+/* Main Section */
 #hero {
     background-image: url(../images/places/ocean.jpg);
     background-position: center;
@@ -44,4 +45,21 @@
 #hero-content a:hover {
     color: white;
     background-color: rgb(250, 204, 0);
+}
+/* Highlight Section */
+.destination img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.destination {
+    width: 33%;
+    margin: 0 20px;
+}
+#destinations {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }

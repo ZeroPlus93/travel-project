@@ -65,3 +65,19 @@
     margin: 0 auto;
     margin-bottom: 40px;
 }
+#highlight h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(85, 85, 85);
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.destination p {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(85, 85, 85);
+    font-size: 1.25rem;
+}
+.destination strong {
+    color: rgb(0,160,117);
+}

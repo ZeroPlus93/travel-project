@@ -22,6 +22,13 @@ header ul {
 header li {
     margin-left: 20px;
 }
+li a {
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+    font-size: 1.25rem;
+    padding: 0.5em 1em;
+    text-shadow: 1px 1px 2px black;
+}
 #page-logo a {
     text-decoration: none;
     font-size: 3em;
@@ -29,4 +36,9 @@ header li {
     color: rgb(255, 247, 142);
     text-shadow: 1px 1px 2px black;
     text-transform: uppercase;
+}
+li a:hover {
+    background-color: rgb(255, 251, 0);
+    color: black;
+    border-radius: 8px;
 }

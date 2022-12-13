@@ -51,6 +51,8 @@
     height: 200px;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
 }
 .destination {
     width: 33%;

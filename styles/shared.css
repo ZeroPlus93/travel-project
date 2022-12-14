@@ -22,7 +22,7 @@ header ul {
 header li {
     margin-left: 20px;
 }
-li a {
+.header-links{
     text-decoration: none;
     color: rgb(255, 251, 0);
     font-size: 1.25rem;
@@ -37,8 +37,13 @@ li a {
     text-shadow: 1px 1px 2px black;
     text-transform: uppercase;
 }
-li a:hover {
+.header-links:hover {
     background-color: rgb(255, 251, 0);
     color: black;
     border-radius: 8px;
+}
+/* Footer section */
+footer {
+    background: linear-gradient(0deg, rgb(47, 47, 47), rgb(0,0,0));
+    padding: 24px 0;
 }

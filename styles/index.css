@@ -62,15 +62,18 @@
     display: flex;
     width: 90%;
     justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 40px;
+    margin: 20px auto;
+}
+#highlight{
+    padding: 40px 0;
+    background: linear-gradient(0deg,rgb(227,255,253),rgb(151, 245, 239));
 }
 #highlight h2 {
     text-align: center;
     text-transform: uppercase;
     color: rgb(85, 85, 85);
     font-size: 2rem;
-    margin: 20px 0;
+    margin: 0;
 }
 .destination p {
     text-align: center;

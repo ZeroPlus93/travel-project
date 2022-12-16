@@ -17,6 +17,7 @@ main li {
  main li img {
     width: 300px;
     height: 280px;
+    object-fit: cover;
 }
 .item-content {
     padding: 20px;

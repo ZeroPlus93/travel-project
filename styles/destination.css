@@ -19,7 +19,13 @@ main li {
     height: 280px;
 }
 .item-content {
-    padding: 20px
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.actions {
+    text-align: right;
 }
 .actions a {
     text-decoration: none;
